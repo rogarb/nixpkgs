@@ -1,0 +1,13 @@
+diff --git a/Cargo.lock b/Cargo.lock
+index 5875c57..66845b2 100644
+--- a/Cargo.lock
++++ b/Cargo.lock
+@@ -113,7 +113,7 @@ dependencies = [
+ 
+ [[package]]
+ name = "lemurs"
+-version = "0.4.0"
++version = "0.3.1"
+ dependencies = [
+  "crossterm 0.22.1",
+  "env_logger",

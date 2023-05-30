@@ -34232,6 +34232,8 @@ with pkgs;
 
   insync = callPackage ../applications/networking/insync { };
 
+  lemurs = callPackage ../applications/display-managers/lemurs { };
+
   libstrangle = callPackage ../tools/X11/libstrangle {
     stdenv = stdenv_32bit;
   };
